@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+project 'MB.xcodeproj'
+target 'MB' do
+  pod 'SDWebImage'
+	pod 'MBProgressHUD'
+end
+
